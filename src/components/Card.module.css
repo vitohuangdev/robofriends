@@ -1,0 +1,15 @@
+.card {
+  text-align: center;
+  background-color: #9eebcf;
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-width: 0.25rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
